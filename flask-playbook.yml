@@ -23,8 +23,8 @@
 
     - name: Clone the repository
       git:
-        repo: https://github.com/Imma016/flask-app.git
-        dest: /opt/flask-app
+        repo: https://github.com/Imma016/project_py.git
+        dest: /opt/project_py
      
     - name: Install Flask 
       pip:
